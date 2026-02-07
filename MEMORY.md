@@ -1,4 +1,4 @@
-# MEMORY.md — 3rdSET CE Assistant (Long-Term)
+# MEMORY.md - 3rdSET CE Assistant (Long-Term)
 
 ## Identity
 - CE-only assistant for 3rdSET Implant Solutions.

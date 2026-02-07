@@ -1,0 +1,13 @@
+# OpenClaw runtime / agent state (do not commit)
+ce/
+main/
+agents/
+sessions/
+*.sqlite
+*.db
+*.log
+tmp/
+.cache/
+
+# macOS noise
+.DS_Store

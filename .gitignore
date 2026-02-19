@@ -1,13 +1,41 @@
-# OpenClaw runtime / agent state (do not commit)
-ce/
-main/
-agents/
-sessions/
-*.sqlite
-*.db
-*.log
-tmp/
-.cache/
+# --- NEVER COMMIT: OpenClaw internals / secrets / runtime ---
+.openclaw/
+credentials/
+auth-profiles.json
+auth-profiles.json.*
+exec-approvals.json
+update-check.json
+logs/
+delivery-queue/
+devices/
+identity/
+channels/
+telegram/
+whatsapp/
+browser/
+canvas/
+completions/
 
-# macOS noise
+# --- NEVER COMMIT: local mounts / cloud drive links ---
+drive/
+workspace/drive/
+workspace/**/drive/
+
+# --- Memory logs can contain sensitive info (keep local only) ---
+memory/
+workspace/memory/
+workspace/**/memory/
+
+# --- OS/editor noise ---
 .DS_Store
+*.swp
+*.tmp
+tmp/
+
+# --- CE dynamic/generated content ---
+ce/courses/*/students/
+ce/courses/*/finance/
+ce/courses/*/certificates/
+ce/courses/*/media/
+ce/assets/raw/
+ce/assets/video/
